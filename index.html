@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Dicionário de HTML</h1>
+
+    <h2>Tag de DIV</h2>
+    <p>A tag <code>&lt;div&gt;</code> define uma divisão ou uma seção em um documento HTML. A tag <code>&lt;div&gt;</code> é usada como um contêiner para elementos HTML, que são então estilizados com CSS ou manipulados com JavaScript. A tag <code>&lt;div&gt;</code> pode ser facilmente estilizada usando o atributo <code>class</code> ou <code>id</code>. Qualquer tipo de conteúdo pode ser colocado dentro da tag <code>&lt;div&gt;</code>! Observação: por padrão, os navegadores sempre colocam uma quebra de linha antes e depois do elemento <code>&lt;div&gt;</code>.</p>
+
+    <h2>Tag de H1 .</h2>
+    <p>As tags <code>&lt;h1&gt;</code> até <code>&lt;h6&gt;</code> são usadas para definir títulos HTML. A tag <code>&lt;h1&gt;</code> define o título mais importante. A tag <code>&lt;h6&gt;</code> define o título menos importante.</p>
+
+    <h2>Tag de TABLE</h2>
+    <p>A tag <code>&lt;table&gt;</code> é usada para definir uma tabela HTML. Dentro da tabela, usamos as tags <code>&lt;tr&gt;</code> para definir linhas, <code>&lt;th&gt;</code> para definir células de cabeçalho e <code>&lt;td&gt;</code> para definir células de dados.</p>
+    <table border="1">
+        <tr>
+            <th>Nome</th>
+            <th>Idade</th>
+        </tr>
+        <tr>
+            <td>Maria</td>
+            <td>30</td>
+        </tr>
+        <tr>
+            <td>João</td>
+            <td>25</td>
+        </tr>
+    </table>
+
+    <h2>Tag de IMG</h2>
+    <p>A tag <code>&lt;img&gt;</code> é usada para incorporar imagens em um documento HTML. O atributo <code>src</code> especifica o caminho da imagem, e o atributo <code>alt</code> fornece uma descrição alternativa para leitores de tela.</p>
+    <img src="exemplo.jpg" alt="Descrição da Imagem" width="300">
+
+    <h2>Tag de A</h2>
+    <p>A tag <code>&lt;a&gt;</code> define um hyperlink que conecta uma página a outra. O atributo <code>href</code> especifica o destino do link.</p>
+    <a href="https://www.exemplo.com">Visite o Exemplo</a>
+
+    <h2>Tag de FORM</h2>
+    <p>A tag <code>&lt;form&gt;</code> é usada para criar um formulário HTML que pode ser enviado para um servidor. Dentro do formulário, você pode usar tags como <code>&lt;input&gt;</code>, <code>&lt;textarea&gt;</code> e <code>&lt;button&gt;</code>.</p>
+    <form action="/enviar" method="post">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome">
+        <br>
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem"></textarea>
+        <br>
+        <button type="submit">Enviar</button>
+    </form>
+
+    <h2>Tag de UL e OL</h2>
+    <p>A tag <code>&lt;ul&gt;</code> define uma lista não ordenada, enquanto a tag <code>&lt;ol&gt;</code> define uma lista ordenada. Ambas as tags utilizam a tag <code>&lt;li&gt;</code> para definir itens da lista.</p>
+    <h3>Lista Não Ordenada</h3>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+    <h3>Lista Ordenada</h3>
+    <ol>
+        <li>Item A</li>
+        <li>Item B</li>
+        <li>Item C</li>
+    </ol>
+
+    <h2>Tag de SPAN</h2>
+    <p>A tag <code>&lt;span&gt;</code> é usada para aplicar estilos a uma parte específica de texto ou conteúdo dentro de um elemento. Ao contrário da tag <code>&lt;div&gt;</code>, que cria uma divisão de bloco, a tag <code>&lt;span&gt;</code> é um elemento em linha.</p>
+    <p>Texto normal e <span style="color: red;">texto em vermelho</span> usando a tag <code>&lt;span&gt;</code>.</p>
+
+    <h2>Tag de BUTTON</h2>
+    <p>A tag <code>&lt;button&gt;</code> define um botão clicável. Pode ser usado em formulários ou para executar scripts.</p>
+    <button type="button" onclick="alert('Botão clicado!')">Clique em Mim</button>
+
+</body>
+</html>
